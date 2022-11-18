@@ -1,0 +1,150 @@
+body
+{
+  background: url(TurbineImage.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; 
+    height: 100vh;
+}
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+header  
+	{
+		font-size: 30px;
+		text-align: center;
+		font-weight: bold;
+		background-color:rgb(108, 73, 58,.5); 
+		color: white;
+		padding-left:0px;
+		padding-top:30px;
+		padding-bottom: 30px;		
+	}
+.navigationbar {
+
+    height: 55px;
+    width: auto;
+    overflow: hidden;
+    background-color:#6c493a;
+   
+  }
+
+  .navigationbar a {
+    
+    float: left; 
+    font-size: 15px;
+    color:white;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 5px;
+    padding-top: 17px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 17px;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+  }
+  .navigationbar a:hover
+  {
+    background-color:rgb(6, 40, 61);
+  }
+#Down
+{
+  width:9pc; 
+  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-right: 10px;
+  margin-left: 80px;
+}
+#searchicon
+{
+  color: white;
+  /* padding-top: 10px;
+  margin-left: 50px; */
+}
+
+.regform
+{
+    width:300px;
+    height:480px;
+    background-color: rgb(0, 0, 0, 0.5);
+    position: relative;
+    margin: 10px auto;
+    margin-bottom: 10px;
+     padding: 10px 20px 30px ;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.regform h3{
+    text-align: center;
+    color: floralwhite;
+}
+.regform .textlabel
+{
+    display: block;
+    height: 20px;
+    width: auto;
+    font-size: 15px;
+
+}
+.input input
+{
+    width: 100%;
+    height: 70%;
+    font-size: 10px;
+
+    box-shadow: 2px;
+    border-radius: 8px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin: 5px 0px 15px;
+}
+.textlabel
+{
+  width: 20px;
+}
+#login
+{
+  display: inline;
+}
+#loginbtn
+{
+  color: black;
+}
+.righticons
+{
+  position: relative;
+  left: 490px;
+}
+#signupbtn
+{
+  width: 100%;
+  height: 29px;
+  padding:auto;
+  color:rgb(23, 146, 187);
+  background-color: rgb(0, 0, 0, 0.5);
+  border-radius: 8px;
+  border: 2px solid white;
+}
+#signupbtn:hover{
+ background-color: white;
+}
+
+#create
+{
+  text-align: center;
+  padding-top: 10px;
+}
+#signup
+{
+  text-decoration:underline ;
+}
+#signup:hover
+{
+  color: red;
+}
