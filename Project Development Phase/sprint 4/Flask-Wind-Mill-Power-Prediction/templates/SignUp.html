@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Signup</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js"></script>
+    <link rel="stylesheet" href="../static/SignupCss.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <header>Wind Turbine Energy Prediction Based on Weather Condition</header>
+
+    <div class="regform">
+        <h3>SignUp</h3>
+    <form action="">
+        <div class="input">
+            <label class="textlabel" for="name"><b>Name</b></label>
+            <div class="inline field">
+              <input type="text" placeholder=" Name">
+            </div>
+        </div>
+       
+        
+        <div class="input">
+            <label class="textlabel" for="name"><b>Email Id</b></label>
+            <div class="inline field">
+              <input type="email" placeholder="email">
+            </div>
+        </div>
+        <div class="input">
+            <label class="textlabel" for="name"><b>Password</b></label>
+            <div class="inline field">
+              <input type="password" placeholder="Password">
+            </div>
+        </div>
+        <div class="input">
+            <label class="textlabel" for="name"><b>Confirm Password</b></label>
+            <div class="inline field">
+              <input type="password" placeholder="Confirm Password">
+            </div>
+        </div>
+       
+        
+        <button id="signupbtn" ><h5><a href="{{url_for('home')}}">Sign-up</a></h5></button>
+
+        <p id="create">Already have an account?&nbsp;<a id="signup" href="{{url_for('loginpage')}}">login</a></p>        
+    </div>
+    </form>    
+</body>
+</html>
